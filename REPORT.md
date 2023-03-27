@@ -12,7 +12,7 @@ afl-fuzz -i in -o out -S fuzzer04 ./fuzzgoat @@
 
 ![Test_multithread.png](content%2FTest_multithread.png)
 
-## Fails of input 
+## Fails on input 
 
 1. `""`
 
