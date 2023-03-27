@@ -194,9 +194,8 @@ Fails on free "" like at 1.
     ```
 
 
-// Fails due json_parse at main.c:156
-// With calling json_value_free_ex( &state.settings, root ) at fuzzgoat.c:1065 after goto
-// state.settings seems to be invalid
+Fails due json_parse at main.c:156
+With calling `json_value_free_ex( &state.settings, root ) at fuzzgoat.c:1065 after goto`; `state.settings` seems to be invalid.
 
 
 ## BTW
